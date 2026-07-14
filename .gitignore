@@ -1,0 +1,19 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- Virtual environment (recreate from requirements.txt) ---
+.venv/
+
+# --- Generated: converted Opus-MT model (~80 MB; regenerate, see README "Setup") ---
+models/
+
+# --- Downloaded test asset, not source ---
+sample_de.mp3
+
+# --- Claude Code local tooling (not part of the project) ---
+.claude/
+
+# --- Misc ---
+*.log

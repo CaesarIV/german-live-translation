@@ -1,0 +1,15 @@
+# Runtime dependencies. Install into a Python 3.11 venv:
+#     pip install -r requirements.txt
+# Then do the one-time CPU-torch + model-conversion step (see README "Setup").
+#
+# The CUDA library versions below are pinned because nvidia_dll_shim.py assumes the
+# cuBLAS-12 / cuDNN-9 pairing that ctranslate2 4.8.x links against.
+
+faster-whisper==1.2.1
+ctranslate2==4.8.1
+nvidia-cublas-cu12==12.9.2.10
+nvidia-cudnn-cu12==9.24.0.43
+soundcard
+transformers
+sentencepiece
+sacremoses
